@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Assignment 18 - Student Admission</title>
+<style>body{font-family:Arial,sans-serif;max-width:850px;margin:20px auto;padding:0 15px}label{display:block;margin-top:12px}input,select,textarea{max-width:100%;padding:7px}table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #555;padding:8px;text-align:left}button{margin-top:15px;padding:8px 15px}</style></head>
+<body><a href="#main">Skip to main content</a><header><h1>Student Admission Form</h1><p>Welcome to ABC College</p></header>
+<nav aria-label="Main navigation"><a href="#details">College Details</a> | <a href="#admission">Admission Form</a></nav>
+<main id="main"><section id="details"><h2>College Details</h2><table><caption>Available Courses</caption><thead><tr><th scope="col">Course</th><th scope="col">Duration</th><th scope="col">Eligibility</th></tr></thead><tbody><tr><td>B.Tech</td><td>4 Years</td><td>10+2</td></tr><tr><td>BCA</td><td>3 Years</td><td>10+2</td></tr></tbody></table></section>
+<section id="admission"><h2>Apply for Admission</h2><form action="#" method="get">
+<fieldset><legend>Personal Information</legend><label for="fullname">Full Name *</label><input id="fullname" name="fullname" type="text" required>
+<label for="email">Email *</label><input id="email" name="email" type="email" required>
+<label for="phone">Mobile Number *</label><input id="phone" name="phone" type="tel" pattern="[0-9]{10}" title="Enter exactly 10 digits" required>
+<label for="dob">Date of Birth *</label><input id="dob" name="dob" type="date" required>
+<label for="gender">Gender</label><select id="gender" name="gender"><option value="">Choose</option><option>Male</option><option>Female</option><option>Other</option></select></fieldset>
+</body></html>
